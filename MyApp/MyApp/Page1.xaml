@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Page1"
+             Title="Enter Grades">
+    <TableView Intent="Settings">
+        <TableRoot>
+            <TableSection Title="+">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="    ID      "/>
+                     
+                        <Label Text="    NAME    "/>
+                      
+                        <Label Text="    GRADE   "/>
+              
+                        <Label Text="  TARGET  "/>
+                        
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______" Completed="Entry_Completed1"/>
+                        <Entry Placeholder="______" Completed="Entry_Completed2"/>
+                        <Entry Placeholder="______"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                        <Entry Placeholder="______"/>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <Label x:Name="Title" Text=" Here are the grades for ___ "/>
+                </ViewCell>
+
+
+
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="Name" Text="Name: " />
+                        <Label x:Name="Grade" Text="Grade: "/>
+                        
+                    </StackLayout>
+                </ViewCell>
+                
+
+            </TableSection>
+        </TableRoot>
+        
+    </TableView>
+</ContentPage>
